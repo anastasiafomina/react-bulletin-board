@@ -1,0 +1,158 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.formContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
+}
+
+.placementButton {
+  display: block;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  width: 141px;
+  height: 36px;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 0 rgba(27, 40, 52, 0.16);
+  background-image: linear-gradient(to bottom, #2d74da, #2367c8);
+  color: #ffffff;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+@media (min-width: 420px) {
+  .inputContainer {
+    flex-direction: row;
+  }
+}
+
+.notification {
+  display: flex;
+}
+
+.notificationMark {
+  margin-top: 3px;
+  margin-right: 4px;
+  width: 18px;
+  height: 18px;
+}
+
+@media (min-width: 420px) {
+  .notificationMark {
+    margin-left: 24px;
+  }
+}
+
+.requestNotification {
+  margin-top: 2px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  min-width: 142px;
+  line-height: 20px;
+}
+
+@media (min-width: 420px) {
+  .requestNotification {
+    margin-bottom: 0;
+  }
+}
+
+.checkNotification {
+  color: #16c98d;
+}
+
+.exclaimNotification {
+  color: #fa5e5b;
+}
+
+.descriptionInput {
+  height: 147px;
+}
+
+.placedAdvertContainer {
+  display: block;
+  margin-bottom: 78px;
+}
+
+@media (min-width: 420px) {
+  .placedAdvertContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.placedAdvertTitle {
+  margin: 0;
+  font-size: 18px;
+  color: #1b2834;
+}
+
+.placedAdvertDescription {
+  margin-top: 10px;
+}
+
+.placedAdvertTel {
+  color: #1b2834;
+}
+
+.editButton {
+  display: block;
+  margin-bottom: 14px;
+  width: 178px;
+  height: 36px;
+  color: #2d74da;
+  border-radius: 3px;
+  border: 1px solid #2d74da;
+  background-color: #ffffff;
+}
+
+.deleteButton {
+  display: block;
+  width: 178px;
+  height: 36px;
+  color: #fa5e5b;
+  border: 1px solid #fa5e5b;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.telMark {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.telRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  height: 24px;
+}
+
+.leftTab {
+  width: 428px;
+  margin-right: 0;
+}
+
+@media (min-width: 420px) {
+  .leftTab {
+    margin-right: 24px;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+}
