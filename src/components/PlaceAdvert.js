@@ -31,7 +31,8 @@ class PlaceAdvert extends Component {
   handleTelNumber = e => {
     this.setState({
       telNumber: e.target.value.replace(/\s/g,''),
-      rightFormat: true
+      rightFormat: true,
+      phoneError: false
     })
   }
 

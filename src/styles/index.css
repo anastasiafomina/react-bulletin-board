@@ -25,6 +25,7 @@ button,
 textarea {
   outline: none;
   font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 button {
